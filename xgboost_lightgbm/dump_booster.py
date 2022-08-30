@@ -22,6 +22,6 @@ if __name__ == "__main__":
     print(mean_squared_error(y_true=y_test, y_pred=lgb_predict))
     print(mean_squared_error(y_true=y_test, y_pred=xgb_predict))
 
-    # print(x_test[0])
+    print(x_test[0])
     print("lightgbm predict:{0}, real:{1}".format(lgb_model.predict(x_test)[0], y_test[0]))
     print("xgboost predict:{0}, real:{1}".format(xgb_model.predict(x_test)[0], y_test[0]))
