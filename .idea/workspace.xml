@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
-    <generated />
+    <generated>
+      <config projectName="lightgbm" targetName="lightgbm_objs" />
+      <config projectName="lightgbm" targetName="_lightgbm" />
+      <config projectName="lightgbm" targetName="lightgbm" />
+      <config projectName="lightgbm" targetName="lightgbm_capi_objs" />
+    </generated>
   </component>
   <component name="CMakeSettings">
     <configurations>
@@ -10,12 +15,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c6e0f16-3277-4785-a21f-6551bb537b2a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/LightGBM.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LightGBM.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xgboost_lightgbm/dump_booster.py" beforeDir="false" afterPath="$PROJECT_DIR$/xgboost_lightgbm/dump_booster.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clean.sh" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +42,27 @@
     <property name="cf.first.check.clang-format" value="false" />
     <property name="settings.editor.selected.configurable" value="CMakeSettings" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.dump_booster">
+    <configuration name="_lightgbm" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lightgbm" TARGET_NAME="_lightgbm" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lightgbm" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lightgbm" TARGET_NAME="lightgbm" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="lightgbm" RUN_TARGET_NAME="lightgbm">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lightgbm_capi_objs" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lightgbm" TARGET_NAME="lightgbm_capi_objs" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lightgbm_objs" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lightgbm" TARGET_NAME="lightgbm_objs" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="dump_booster" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="LightGBM" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -62,6 +84,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="CMake Application._lightgbm" />
+      <item itemvalue="CMake Application.lightgbm" />
+      <item itemvalue="CMake Application.lightgbm_capi_objs" />
+      <item itemvalue="CMake Application.lightgbm_objs" />
+      <item itemvalue="Python.dump_booster" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.dump_booster" />
@@ -79,6 +108,7 @@
       <option name="presentableId" value="Default" />
       <updated>1661827139497</updated>
       <workItem from="1661827143386" duration="2442000" />
+      <workItem from="1662001106992" duration="3645000" />
     </task>
     <servers />
   </component>
